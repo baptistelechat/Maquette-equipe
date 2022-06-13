@@ -1,0 +1,23 @@
+section {
+  display: flex;
+  flex-direction: row;
+  height: 33%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 16px;
+}
+
+img {
+  width: 50%;
+}
+
+#title {
+  margin-bottom: 16px;
+  font-size: 2rem;
+}
+
+#content {
+  color: #979797;
+  font-size: 1.1rem;
+}
