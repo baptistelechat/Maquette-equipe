@@ -1,23 +1,30 @@
-section {
+.about-us-section {
   display: flex;
   flex-direction: row;
   height: 33%;
   width: 100%;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  margin: 0 16px;
+  padding: 0 5%;
 }
 
-img {
+.about-us-img {
   width: 50%;
 }
 
-#title {
+.about-us-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-title {
   margin-bottom: 16px;
   font-size: 2rem;
 }
 
-#content {
+.about-us-description {
   color: #979797;
   font-size: 1.1rem;
 }

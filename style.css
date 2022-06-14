@@ -1,14 +1,9 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #333;
   background-color: #fff;
-}
-
-body {
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 header {
@@ -16,5 +11,6 @@ header {
 }
 
 main {
-  color: green;
+  color : green;
 }
+
