@@ -12,20 +12,12 @@
     <main>📝 Contenu</main>
     <footer>☎ Footer</footer>
 
-    <iframe
-      frameborder="0"
-      scrolling="no"
-      src="./about-us/about-us.html"
-      onload="resizeIframe(this)"
-    ></iframe>
+    <div w3-include-html="./about-us/about-us.html"></div>
+    <div w3-include-html="./services/services.html"></div>
 
-    <iframe
-      frameborder="0"
-      scrolling="no"
-      src="./services/services.html"
-      onload="resizeIframe(this)"
-    ></iframe>
-
-    <script src="script.js"></script>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <script>
+      w3IncludeHTML();
+    </script>
   </body>
 </html>
