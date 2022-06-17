@@ -12,7 +12,20 @@
     <main>📝 Contenu</main>
     <footer>☎ Footer</footer>
 
-    <iframe src="./about-us/about-us.html"></iframe>
-    <iframe src="./services/services.html"></iframe>
+    <iframe
+      frameborder="0"
+      scrolling="no"
+      src="./about-us/about-us.html"
+      onload="resizeIframe(this)"
+    ></iframe>
+
+    <iframe
+      frameborder="0"
+      scrolling="no"
+      src="./services/services.html"
+      onload="resizeIframe(this)"
+    ></iframe>
+
+    <script src="script.js"></script>
   </body>
 </html>

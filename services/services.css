@@ -21,7 +21,7 @@
   font-size: 2rem;
 }
 
-.services-card{
+.services-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,7 +32,7 @@
   padding: 5%;
   border-radius: 16px;
   background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .services-card-title {
@@ -40,7 +40,6 @@
   margin-bottom: 1rem;
   text-align: center;
 }
-
 
 .services-card-img-container {
   width: 100%;
@@ -72,13 +71,13 @@
 }
 
 @media only screen and (max-width: 768px) {
- /* Appareils avec une résolution de 500 pixels ou moins */
- .services-card-container {
-   flex-direction: column;
- }
- .services-card {
-   width: 100%;
-   height: auto;
-   margin-bottom: 2.5rem;
- }
+  /* Appareils avec une résolution de 500 pixels ou moins */
+  .services-card-container {
+    flex-direction: column;
+  }
+  .services-card {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2.5rem;
+  }
 }
