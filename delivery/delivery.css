@@ -1,0 +1,72 @@
+.delivery__section {
+  display: flex;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 5%;
+  margin-top: 6rem;
+  position: relative;
+}
+
+.delivery__image {
+  width: 50%;
+}
+
+.delivery__card {
+  width: 50%;
+}
+
+.delivery__title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.delivery__description {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #979797;
+}
+
+.delivery__buttons button {
+  outline: inherit;
+  cursor: pointer;
+  border: none;
+  margin-right: 1rem;
+  background-color: #fdcb35;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.delivery__buttons button i {
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+  background-color: #fdcb35;
+}
+
+#icon-apple-size {
+  font-size: 1.6rem;
+}
+
+.delivery__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  background-color: #fdd55d;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+
+.delivery__arrow i {
+  background-color: #fdd55d;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
