@@ -6,6 +6,10 @@
   background-color: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   color: gray;
 }
@@ -19,16 +23,54 @@ main {
   justify-content: center;
   align-items: center;
   position: fixed;
-  right: 20px;
+  right: -40px;
   bottom: 20px;
   border-radius: 5px;
   background-color: #fdd55d;
   width: 2.5rem;
   height: 2.5rem;
+  cursor: pointer;
 }
 
 .delivery__arrow i {
   background-color: #fdd55d;
   font-size: 1.1rem;
   font-weight: bold;
+  animation: backOnTopAnimation 0.75s alternate ease infinite;
+}
+
+.enterAnimation {
+  animation: enterAnimation 0.25s ease forwards;
+}
+
+.exitAnimation {
+  animation: exitAnimation 0.25s ease forwards;
+}
+
+@keyframes backOnTopAnimation {
+  from {
+    transform: translateY(-2px);
+  }
+
+  to {
+    transform: translateY(1px);
+  }
+}
+
+@keyframes enterAnimation {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-70px);
+  }
+}
+
+@keyframes exitAnimation {
+  0% {
+    transform: translateX(-70px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
