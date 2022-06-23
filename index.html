@@ -4,17 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/9103226dab.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
     <title>Projet Git - Hardwork Dev Team</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header>📚 Navigation</header>
     <main>📝 Contenu</main>
     <footer>☎ Footer</footer>
 
-    <div w3-include-html="./about-us/about-us.html"></div>
-    <div w3-include-html="./services/services.html"></div>
+    <section w3-include-html="./about-us/about-us.html"></section>
+    <section w3-include-html="./services/services.html"></section>
+    <section w3-include-html="./delivery/delivery.html"></section>
 
+    <section class="delivery__arrow">
+      <i class="fa-solid fa-arrow-up"></i>
+    </section>
+    <script src="index.js"></script>
     <script src="http://www.w3schools.com/lib/w3data.js"></script>
     <script>
       w3IncludeHTML();
