@@ -13,3 +13,22 @@ header {
 main {
   color: green;
 }
+
+.delivery__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 5px;
+  background-color: #fdd55d;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.delivery__arrow i {
+  background-color: #fdd55d;
+  font-size: 1.1rem;
+  font-weight: bold;
+}

@@ -49,24 +49,3 @@
 #icon-apple-size {
   font-size: 1.6rem;
 }
-
-.delivery__arrow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  border-radius: 5px;
-  background-color: #fdd55d;
-  width: 2.5rem;
-  height: 2.5rem;
-  margin-right: 3rem;
-  margin-bottom: 3rem;
-}
-
-.delivery__arrow i {
-  background-color: #fdd55d;
-  font-size: 1.1rem;
-  font-weight: bold;
-}
