@@ -5,8 +5,6 @@ window.onscroll = () => {
 };
 
 const displayBtn = () => {
-  console.log(arrow.classList.value);
-
   if (
     document.body.scrollTop > 100 ||
     document.documentElement.scrollTop > 100
