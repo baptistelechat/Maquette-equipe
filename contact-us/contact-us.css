@@ -1,0 +1,51 @@
+.contact-us-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.contact-description {
+  width: 40%;
+}
+
+.contact-description h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.contact-description p {
+  font-size: 1.1rem;
+  color: #979797;
+}
+
+.contact-infos ul {
+  margin: 0;
+}
+
+.contact-infos ul li {
+  list-style: none;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray-color {
+  color: #979797;
+}
+
+.contact-button button {
+  outline: inherit;
+  cursor: pointer;
+  border: none;
+  margin-right: 1rem;
+  background-color: #fdcb35;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
