@@ -1,0 +1,97 @@
+:root {
+  --main-footer-color: #fce59a;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  background-color: var(--main-footer-color);
+}
+
+.footer-delivery {
+  background-color: var(--main-footer-color);
+}
+
+.footer-delivery h2 {
+  background-color: var(--main-footer-color);
+}
+
+.footer-delivery p {
+  background-color: var(--main-footer-color);
+  padding-top: 1.2rem;
+  font-size: 1.1rem;
+  color: #828675;
+}
+
+.footer-services h2 {
+  background-color: var(--main-footer-color);
+}
+
+.footer-services li {
+  background-color: var(--main-footer-color);
+  padding-top: 1.2rem;
+  font-size: 1.1rem;
+  color: #828c7a;
+}
+
+.footer-company {
+  background-color: var(--main-footer-color);
+}
+
+.footer-company h2 {
+  background-color: var(--main-footer-color);
+}
+
+.footer-company li {
+  background-color: var(--main-footer-color);
+  padding-top: 1.2rem;
+  font-size: 1.1rem;
+  color: #828c7a;
+}
+
+.footer-community {
+  background-color: var(--main-footer-color);
+}
+
+.footer-community h2 {
+  background-color: var(--main-footer-color);
+}
+
+.footer-community li {
+  background-color: var(--main-footer-color);
+  padding-top: 1.2rem;
+  font-size: 1.1rem;
+  color: #828c7a;
+}
+
+.fontawesome-icons {
+  position: relative;
+  top: -18px;
+  display: flex;
+  background-color: var(--main-footer-color);
+}
+
+.fontawesome-icons li {
+  background-color: var(--main-footer-color);
+  padding-top: 1.2rem;
+  font-size: 1.5rem;
+  color: #828c7a;
+}
+
+.fontawesome-icons li i {
+  background-color: var(--main-footer-color);
+  margin-right: 2rem;
+}
+
+.footer-rights {
+  background-color: var(--main-footer-color);
+  padding-bottom: 2rem;
+}
+
+.footer-rights p {
+  text-align: center;
+  background-color: var(--main-footer-color);
+  color: #828c7a;
+}
