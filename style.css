@@ -18,6 +18,10 @@ main {
   color: green;
 }
 
+li {
+  list-style: none;
+}
+
 .delivery__arrow {
   display: flex;
   justify-content: center;
